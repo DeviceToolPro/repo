@@ -7,23 +7,6 @@ Section: Utilities
 Depends: firmware (>= 15.0), ellekit, ldid, openssh, sqlite3, adv-cmds, coreutils, system-cmds, network-cmds, shell-cmds, ca-certificates, uikittools
 Recommends: com.tigisoftware.filza
 Architecture: iphoneos-arm64
-Version: 201
-Installed-Size: 2160
-Filename: debs_Repo/com.ban.devicetool_201.deb
-Size: 468474
-MD5sum: 8d96b02821a98a11f92f3821339962a3
-SHA1: a2804413d5b554c2b3b36cf3c1aa56525efae9c9
-SHA256: 737cbc40ac5c7e4370fd0ea19f787ddfa2206b78409da9e1b099cdbc1871ee31
-
-Package: com.ban.devicetool
-Name: DeviceTool
-Description: An awesome application for Device Management!
-Maintainer: LeHong
-Author: LeHong
-Section: Utilities
-Depends: firmware (>= 15.0), ellekit, ldid, openssh, sqlite3, adv-cmds, coreutils, system-cmds, network-cmds, shell-cmds, ca-certificates, uikittools
-Recommends: com.tigisoftware.filza
-Architecture: iphoneos-arm64
 Version: 203
 Installed-Size: 3276
 Filename: debs_Repo/com.ban.devicetool_203.deb
@@ -31,4 +14,21 @@ Size: 1494790
 MD5sum: 2525099f317a42d9a894bfe23a5ca260
 SHA1: 7116d74dc1aae1000fd1e36dea2581635601bb8f
 SHA256: 1a5813705c1c7ac79ba442ca6a401dfbc27b97243f8684a715b40c5fe9288a8b
+
+Package: com.lehong.chnetworkfix
+Name: CH/A Network Fix
+Description: Allow Wi-Fi and cellular data for installed apps on CH/A devices without changing MobileGestalt region values.
+Maintainer: Le Hong
+Author: Le Hong
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Installed-Size: 424
+Filename: debs_Repo/com.lehong.chnetworkfix_0.2.0.deb
+Size: 167694
+MD5sum: 243a33a2f4cc7b8a495b3c64cfb73176
+SHA1: 99e24a883239db6c703d4a8132d31e4c20bdfcdb
+SHA256: 2f6ed19c2a09208dd32f919abbd8a3a6c0c609d81f3f0f28098dd9b775073ae9
 
