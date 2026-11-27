@@ -1,3 +1,19 @@
+Package: com.aries.touchflow
+Name: TouchFlow
+Description: Lua-driven touch automation with a legacy-compatible HTTP server.
+Maintainer: aries
+Author: aries
+Section: Utilities
+Depends: firmware (>= 16.0), ellekit (>= 1.2), uikittools
+Architecture: iphoneos-arm64
+Version: 1.0.0-1
+Installed-Size: 7036
+Filename: debs_Repo/com.aries.touchflow_1.0.0-1.deb
+Size: 2110370
+MD5sum: 1bd4c3e548673236fd4f03716b1b560d
+SHA1: e31e736a864710845399b5fbbdc8eb5badfd84f9
+SHA256: 3ba6506efa10c6ed6925340c7d0aa4f165ee4aead7beeae48f31912b4147e812
+
 Package: com.ban.devicetool
 Name: DeviceTool
 Description: An awesome application for Device Management!
